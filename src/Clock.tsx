@@ -15,7 +15,7 @@ function Clock() {
   }, []);
 
   return (
-    <div className="clock">
+    <div className="container">
       <h2>Current Time:</h2>
       <p>{time.toLocaleTimeString()}</p>
     </div>
